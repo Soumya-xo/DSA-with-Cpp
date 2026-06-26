@@ -5,4 +5,9 @@ build/
 .DS_Store
 
 # VS Code
-.vscode/settings.json
+.vscode/
+
+# C++ executables
+*.out
+*.exe
+a.out
