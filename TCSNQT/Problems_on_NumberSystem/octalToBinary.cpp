@@ -7,12 +7,12 @@ int main() {
     int num = 345;
 
     int decimal = 0;
-    int base = 1;
+    int base = 0;
 
     while(num>0){
         int rem = num%10;
-        decimal += rem*base;
-        base *= 8;
+        decimal += rem*pow(8,base);
+        base ++;
         num/=10;
     }
 

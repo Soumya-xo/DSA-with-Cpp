@@ -11,3 +11,5 @@ build/
 *.out
 *.exe
 a.out
+
+# find . -type f -perm -111 -delete

@@ -37,8 +37,17 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
-    string  s = "11111";
-    cout<<stoi(s,0,2);
-    return 0;
-}
+// int main() {
+//     string  s = "11111";
+//     cout<<stoi(s,0,2);
+//     return 0;
+// }
+
+// int main(){
+//     string s = "11111";
+//     int decimal =stoi(s,nullptr,2);
+//     cout<<hex<<uppercase<<decimal;
+//     cout<<oct<<decimal;
+
+// }
+
